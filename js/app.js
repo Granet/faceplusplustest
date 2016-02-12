@@ -10,7 +10,7 @@ $(document).ready(function(){
             contentType: false,
             processData: false,
             success: function(response) {
-                console.log(JSON.stringify(response));
+                alert(JSON.stringify(response));
             },
         });
     };
